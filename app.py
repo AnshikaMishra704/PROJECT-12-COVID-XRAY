@@ -15,7 +15,7 @@ st.write("Upload a Chest X-Ray image to predict whether it is COVID or NORMAL.")
 
 @st.cache_resource
 def load_my_model():
-    return load_model("model.h5")
+    return load_model("model_no_optimizer.h5")
 
 model = load_my_model()
 
