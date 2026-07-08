@@ -1,0 +1,8 @@
+streamlit
+tensorflow
+numpy
+pillow
+matplotlib
+keras-preprocessing
+pandas
+h5py
